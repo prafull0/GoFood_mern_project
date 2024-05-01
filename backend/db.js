@@ -1,6 +1,6 @@
 const { Result } = require('express-validator');
 const mongoose = require('mongoose');
-const mongodbURI = "mongodb+srv://prafullpranpratap:prafull_mongo@cluster0.z2qljab.mongodb.net/gofoodmern"
+const mongodbURI = "mongodb+srv://prafullpranpratap:prafull@cluster0.z2qljab.mongodb.net/gofoodmern"
 const mongoDB = async ()=>{
   
  mongoose.connect(mongodbURI)
